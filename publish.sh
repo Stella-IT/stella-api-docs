@@ -1,7 +1,7 @@
 #!/bin/bash
 
 npm i -g gitbook-cli
-git checkout gh-pages
+git checkout -t -b gh-pages origin/gh-pages
 
 gitbook build
 
