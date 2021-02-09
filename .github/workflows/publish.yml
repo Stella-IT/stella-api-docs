@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Publisher
 
 # Controls when the action will run. 
 on:
@@ -27,7 +27,7 @@ jobs:
         
       - uses: actions/setup-node@v2
         with:
-          node-version: '12'
+          node-version: '12.13.0'
 
       # Runs a single command using the runners shell
       - name: Publish
