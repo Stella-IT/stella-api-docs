@@ -11,7 +11,7 @@ git clean -fx _book
 
 git add .
 
-git commit -a -m "chore: Update docs" --author="Stella IT Bot <bot@stella-it.com>"
+git commit -a -m "chore: Update docs" --author=Stella\ IT\ Bot\ \<bot@stella-it.com\>
 git push origin gh-pages
 
 git checkout master
