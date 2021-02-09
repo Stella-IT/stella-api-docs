@@ -16,4 +16,4 @@ git config user.email "bot@stella-it.com"
 git commit -a -m "chore: Update docs"
 git push origin gh-pages
 
-git checkout master
+#git checkout master
